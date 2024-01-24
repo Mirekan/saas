@@ -99,8 +99,56 @@ nav ul li a.logout-btn:hover {
     color: white;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  text-align: center;
+  background-color: #000000a6;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media only screen and (max-width: 720px){
     body {
-        
+        width: 112vw;
     }
+    .headerBackground {
+        width: 100%;
+    }
+    .wrap {
+        width: 60%;
+        top: 54%;
+    }
+
 }
+
