@@ -12,8 +12,8 @@ $password=$_POST['password'];
 
 //query dari tabel user 
 
-$ambildata=mysqli_query ($konek,"select * from user where ADMINID='$username' and password='$password'");
-$ambildatauser=mysqli_query ($konek, "select * from usernotadmin where USERID='$username' and password='$password'");
+$ambildata=mysqli_query ($konek,"select * from admin where USERNAME='$username' and password='$password'");
+$ambildatauser=mysqli_query ($konek, "select * from user where USERNAME='$username' and password='$password'");
 
 
 //cek data 

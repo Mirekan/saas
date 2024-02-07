@@ -3,7 +3,7 @@
     $user = "adminsija";
     $password = "123";
     $dbname = "mysql";
-    $secondarydbname = "data_";
+    $secondarydbname = "perpustakaan";
 
     $konek=mysqli_connect($host, $user, $password, $secondarydbname);
-?>
+?>  
