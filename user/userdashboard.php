@@ -15,9 +15,6 @@
             <li><a href="/index.php" class="logout-btn">Logout</a></li>
         </ul>
     </nav>
-    <?php 
-        
-    ?>
     <header class="headerBackground">
         <div class="headerText">
             <h1> Welcome to the library</h1>
@@ -39,6 +36,19 @@
             <h2>Visits</h2>
             <p>500</p>
         </div>
+    </section class="searchBar">
+        <div class="wrap">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="What book are you looking for?">
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+    <section class="searchDashboard">
+
     </section>
+
+    <script src="https://kit.fontawesome.com/6a7e691908.js" crossorigin="anonymous"></script>
 </body>
 </html>
